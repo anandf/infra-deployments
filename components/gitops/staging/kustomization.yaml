@@ -7,8 +7,8 @@ resources:
 
 images:
   - name: \${COMMON_IMAGE}
-    newName: quay.io/redhat-appstudio/gitops-service
-    newTag: adcda66c2568ad3a8d1f64e6d377bea0a9bed5ab
+    newName: quay.io/anjoseph/gitops-service
+    newTag: latest
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
